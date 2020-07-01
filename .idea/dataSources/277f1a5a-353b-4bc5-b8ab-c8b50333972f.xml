@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="todo@localhost">
+  <database-model serializer="dbm" dbms="MARIADB" family-id="MARIADB" format-version="4.17">
+    <root id="1">
+      <ServerVersion>10.1.25</ServerVersion>
+      <DefaultEngine>InnoDB</DefaultEngine>
+      <DefaultCasing>lower/lower</DefaultCasing>
+    </root>
+    <schema id="2" parent="1" name="20200319">
+      <Collation>utf8_hungarian_ci</Collation>
+    </schema>
+    <schema id="3" parent="1" name="autoskartya">
+      <Collation>utf8_hungarian_ci</Collation>
+    </schema>
+    <schema id="4" parent="1" name="gyakorlás1">
+      <Collation>utf8_hungarian_ci</Collation>
+    </schema>
+    <schema id="5" parent="1" name="information_schema">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="6" parent="1" name="italbolt">
+      <Collation>utf8_hungarian_ci</Collation>
+    </schema>
+    <schema id="7" parent="1" name="konyv">
+      <Collation>utf8_hungarian_ci</Collation>
+    </schema>
+    <schema id="8" parent="1" name="kozlekedes">
+      <Collation>utf8_hungarian_ci</Collation>
+    </schema>
+    <schema id="9" parent="1" name="menhely">
+      <Collation>utf8_hungarian_ci</Collation>
+    </schema>
+    <schema id="10" parent="1" name="mysql">
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <schema id="11" parent="1" name="napfogyatkozas">
+      <Collation>utf8_hungarian_ci</Collation>
+    </schema>
+    <schema id="12" parent="1" name="performance_schema">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="13" parent="1" name="phpmyadmin">
+      <Collation>utf8_bin</Collation>
+    </schema>
+    <schema id="14" parent="1" name="raktar">
+      <Collation>utf8_hungarian_ci</Collation>
+    </schema>
+    <schema id="15" parent="1" name="szallas">
+      <Collation>utf8_hungarian_ci</Collation>
+    </schema>
+    <schema id="16" parent="1" name="takaritogepek">
+      <Collation>utf8_hungarian_ci</Collation>
+    </schema>
+    <schema id="17" parent="1" name="taxi">
+      <Collation>utf8_hungarian_ci</Collation>
+    </schema>
+    <schema id="18" parent="1" name="test">
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <schema id="19" parent="1" name="teszt">
+      <Collation>utf8_hungarian_ci</Collation>
+    </schema>
+    <schema id="20" parent="1" name="todo">
+      <Current>1</Current>
+      <Collation>utf8_hungarian_ci</Collation>
+    </schema>
+  </database-model>
+</dataSource>
